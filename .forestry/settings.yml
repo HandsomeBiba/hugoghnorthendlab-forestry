@@ -5,11 +5,17 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: яфяфяфдг
+  create: all
+  match: "**/*"
+- type: directory
   path: content
   label: Test lol kek
   create: documents
   match: "*.md"
   templates:
+  - tools
   - post
 - type: directory
   path: data
