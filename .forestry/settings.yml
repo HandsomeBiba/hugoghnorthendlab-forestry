@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: content
-  label: Post
+  label: Test lol kek
   create: documents
   match: "*.md"
   templates:
@@ -28,7 +28,7 @@ sections:
   - author
 - type: document
   path: content/contact/_index.md
-  label: Contact
+  label: Контакты
 - type: document
   path: config.toml
   label: Configuration
